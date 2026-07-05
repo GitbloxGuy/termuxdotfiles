@@ -7,7 +7,8 @@ export HISTFILE=$HOME/.config/zsh/.zsh_history
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 # Path to your Oh My Zsh installation.
 export ZSH=$ZDOTDIR/.oh-my-zsh
-
+export STARSHIP_CONFIG=~/example/non/default/path/starship.toml
+export STARSHIP_CACHE=~/.starship/cache
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -136,3 +137,4 @@ zstyle ':completion:*:default' list-colors "ma=48;5;61;38;5;255m"
 # 5. Pack Items Closely Together
 zstyle ':completion:*' group-name ''
 
+eval "$(starship init zsh)"
