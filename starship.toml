@@ -1,5 +1,13 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
+[character]
+success_symbol = '[➜](bold green)'
+error_symbol = '[✗](bold red)'
+
+[directory]
+style = 'bold cyan'
+truncation_length = 3
+
 [aws]
 format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
 
@@ -122,6 +130,9 @@ format = '\[[$symbol$branch]($style)\]'
 
 [hostname]
 format = '\[[$ssh_symbol($hostname)]($style)\] '
+ssh_only = false
+style = 'bold green'
+disabled = false
 
 [java]
 format = '\[[$symbol($version)]($style)\]'
@@ -149,6 +160,9 @@ format = '\[[$symbol($version)]($style)\]'
 
 [memory_usage]
 format = '\[$symbol[$ram( | $swap)]($style)\]'
+style = 'bold dimmed white'
+threshold = -1
+disabled = false
 
 [meson]
 format = '\[[$symbol$project]($style)\]'
@@ -260,12 +274,21 @@ format = '\[[$symbol$workspace]($style)\]'
 
 [time]
 format = '\[[$time]($style)\]'
+style = 'bold blue'
+disabled = false
+time_format = '%I:%M:%S %p'
+
 
 [typst]
 format = '\[[$symbol($version)]($style)\]'
 
 [username]
-format = '\[[$user]($style)\]'
+style_user = 'bold yellow'
+style_root = 'bold red'
+format = '\[[$user]($style)\] '
+disabled = false
+show_always = true
+
 
 [vagrant]
 format = '\[[$symbol($version)]($style)\]'
