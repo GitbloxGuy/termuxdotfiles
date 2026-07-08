@@ -25,6 +25,7 @@ vim.opt.number = true          -- Show line numbers
 
 
 require("config.lazy")
+
 vim.api.nvim_create_autocmd("VimEnter", {
 	  callback = function()
 		      vim.cmd("Neotree show")
@@ -41,5 +42,6 @@ vim.g.clipboard = {
     ['*'] = 'termux-clipboard-get',
   },
   cache_enabled = 0,
-}		
--- require("oil").setup()
+}	
+
+vim.opt.clipboard = 'unnamedplus'
