@@ -14,12 +14,31 @@ export STARSHIP_CACHE=~/.starship/cache
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME=""
-
-
+alias ff='fastfetch -c ~/.config/fastfetch/config.jsonc'
+alias ff1='fastfetch -c ~/.config/fastfetch/config1.jsonc'
+ff1
 #functions i make fr
 fetch() {
     (cd /data/data/com.termux/files/home/.config/fastfetch && fastfetch)
 }
+
+	# Function: attach to existing session or create one
+tm() {
+  tmux attach -t main 2>/dev/null || tmux new -s main
+}
+
+# Widget to trigger it with a keybind
+tmux-launch-widget() {
+  BUFFER="tm"
+  zle accept-line
+}
+zle -N tmux-launch-widget
+bindkey '^T' tmux-launch-widget   # Ctrl+T to launch/attach tmux
+
+
+
+
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
