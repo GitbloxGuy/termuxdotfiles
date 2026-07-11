@@ -1,9 +1,10 @@
 vim.opt.number = true          -- Show line numbers
--- vim.opt.relativenumber = true  -- Show relative line numbers (great for jumping around)
--- vim.opt.mouse = 'a'            -- Enable mouse support
+vim.opt.relativenumber = true  -- Show relative line numbers (great for jumping around)
+
+vim.opt.mouse = 'a'            -- Enable mouse support
 -- vim.opt.ignorecase = true      -- Ignore case in search patterns
 -- vim.opt.smartcase = true       -- ...unless the search contains capitals
--- vim.opt.hlsearch = false       -- Clear search highlights after matching
+vim.opt.hlsearch = true		-- Clear search highlights after matching
 -- vim.opt.wrap = false           -- Don't wrap lines
 --
 -- -- Tabs & Indentation
