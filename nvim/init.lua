@@ -16,7 +16,7 @@ vim.opt.hlsearch = true		-- Clear search highlights after matching
 -- -- 2. KEYMAPS (Shortcuts)
 -- -- ========================================================================== --
 -- -- Set spacebar as your leader key (the prefix for custom shortcuts)
--- vim.g.mapleader = ' '
+vim.g.mapleader = ' '
 --
 -- -- Example: Pressing 'space + pv' will open the built-in file explorer (Netrw)
 -- vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Open File Explorer' })
