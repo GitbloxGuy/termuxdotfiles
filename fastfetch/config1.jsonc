@@ -36,7 +36,7 @@
     {
       "type": "memory",
       "key": "memory",
-      "format": "{}"
+      "format": "{1}/{2} ({3})"
     },
 "break",
     {
