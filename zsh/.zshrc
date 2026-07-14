@@ -14,9 +14,11 @@ export STARSHIP_CACHE=~/.sarship/cache
 
 ZSH_THEME=""
 
-if [ -f "$HOME/.zsh/aliases.zsh" ]; then
-    source "$HOME/.zsh/aliases.zsh"
+if [ -f "$HOME/.config/zsh/aliases.zsh" ]; then
+    source "$HOME/.config/zsh/aliases.zsh"
 fi
+
+ff1
 
 plugins=(git 
 	zsh-autocomplete
