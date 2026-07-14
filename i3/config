@@ -10,7 +10,7 @@ font pango:Terminess Nerd Font 12
 # exec --no-startup-id dex --autostart --environment i3
 
 # Window configuration: Set a clean border style and let windows tile naturally
-for_window [class="^.*"] border pixel 5
+for_window [class="^.*"] border pixel 1
 
 # Colors (Border / Background / Text)
 client.focused          #000000 #000000 #000000 #000000   #000000
@@ -18,8 +18,9 @@ client.focused_inactive #ffffff #ffffff #ffffff #ffffff   #ffffff
 client.unfocused        #ffffff #ffffff #ffffff #ffffff   #ffffff
 
 # Gaps
-gaps inner 5
-gaps outer 5
+gaps inner 3
+gaps outer 3
+
 
 # Wallpaper: Path updated to your Termux home directory
 exec --no-startup-id feh --bg-fill ~/lw.jpg
@@ -158,5 +159,4 @@ bindsym Print exec --no-startup-id "maim | xclip -selection clipboard -t image/p
 bindsym Shift+Print exec --no-startup-id "maim -s | xclip -selection clipboard -t image/png"
 bindsym $mod+Print exec --no-startup-id "maim --window $(xdotool getactivewindow) ~/Pictures/screenshot-$(date +%s).png"
 
-exec_always --no-startup-id picom -b
 

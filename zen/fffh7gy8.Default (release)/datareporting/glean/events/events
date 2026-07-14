@@ -1,0 +1,15 @@
+{"timestamp":139399491,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"glean_timestamp":"1784041279496","loadfail_reason":"File doesn't exist.","can_load":"false","path_key":"clean"}}
+{"timestamp":139399542,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"true","path_key":"recovery","loadfail_reason":"N/A","glean_timestamp":"1784041279546"}}
+{"timestamp":139399545,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"glean_timestamp":"1784041279548","loadfail_reason":"N/A","path_key":"recovery","can_load":"true"}}
+{"timestamp":139399672,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"glean_timestamp":"1784041279676","shutdown_reason":"final-state-write-incomplete","shutdown_ok":"true"}}
+{"timestamp":139408414,"category":"nimbus_events","name":"startup_database_consistency","extra":{"db_active_count":"1","store_active_count":"1","trigger":"startup","total_db_count":"1","total_store_count":"1","primary":"database","glean_timestamp":"1784041288417"}}
+{"timestamp":139408841,"category":"jsonfile","name":"load_autofillprofiles","extra":{"value":"error_notfounderror","glean_timestamp":"1784041288844"}}
+{"timestamp":139409327,"category":"jsonfile","name":"load_logins","extra":{"value":"error_notfounderror","glean_timestamp":"1784041289331"}}
+{"timestamp":139411405,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1784041291409"}}
+{"timestamp":139411458,"category":"containers","name":"container_profile_loaded","extra":{"containers":"4","glean_timestamp":"1784041291461"}}
+{"timestamp":139411596,"category":"upgrade_dialog","name":"trigger_reason","extra":{"value":"not-major","glean_timestamp":"1784041291599"}}
+{"timestamp":139412714,"category":"nimbus_events","name":"database_write","extra":{"success":"true","glean_timestamp":"1784041292718"}}
+{"timestamp":139439150,"category":"pinned_tabs","name":"close","extra":{"glean_timestamp":"1784041319154","layout":"horizontal"}}
+{"timestamp":139439163,"category":"tabgroup","name":"delete","extra":{"source":"unknown","glean_timestamp":"1784041319167","id":"1784040744886-61"}}
+{"timestamp":139439169,"category":"pinned_tabs","name":"close","extra":{"layout":"horizontal","glean_timestamp":"1784041319172"}}
+{"timestamp":139447026,"category":"urlbar","name":"engagement","extra":{"search_engine_default_id":"google-b-1-d","sap":"urlbar_newtab","n_results":"5","search_mode":"","provider":"UrlbarProviderTopSites","n_words":"0","available_semantic_sources":"none","groups":"top_site,top_site,top_site,top_site,top_site","results":"top_site,top_site,top_site,top_site,top_site","actions":"none,none,none,none,none","n_chars":"0","interaction":"typed","engagement_type":"click","selected_result":"top_site","window_mode":"classic","selected_position":"1","glean_timestamp":"1784041327030"}}
