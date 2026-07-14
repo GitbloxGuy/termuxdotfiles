@@ -12,8 +12,8 @@ export ZSH=$ZDOTDIR/.oh-my-zsh
 export STARSHIP_CONFIG=/data/data/com.termux/files/home/.config/starship.toml
 export STARSHIP_CACHE=~/.sarship/cache
 
-ZSH_THEME=""
-
+ZSH_THEME="zeta.zsh-theme"
+ 
 if [ -f "$HOME/.config/zsh/aliases.zsh" ]; then
     source "$HOME/.config/zsh/aliases.zsh"
 fi
