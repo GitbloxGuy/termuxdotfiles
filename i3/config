@@ -151,7 +151,7 @@ bindsym $mod+r mode "resize"
 
 # Notifications setup
 exec --no-startup-id dunst &
-exec dunstify "Hey dumbass, wake up and USE YOUR SYSTEM!"
+exec dunstify "YO HO!"
 
 # Screenshot keybindings
 bindsym Print exec --no-startup-id "maim | xclip -selection clipboard -t image/png"
