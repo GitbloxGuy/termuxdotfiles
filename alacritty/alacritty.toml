@@ -3,4 +3,7 @@ padding = { x = 6, y = 6 }
 decorations = "None"
 opacity = 0.5
 
+ [colors.primary]
+ background = '#1a1a1a'
+ foreground = '#d8d8d8'
 
