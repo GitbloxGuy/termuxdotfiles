@@ -10,16 +10,16 @@ export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 # Path to your Oh My Zsh installation.
 export ZSH=$ZDOTDIR/.oh-my-zsh
 export STARSHIP_CONFIG=/data/data/com.termux/files/home/.config/starship.toml
-export STARSHIP_CACHE=~/.starship/cache
+export STARSHIP_CACHE=~/.sarship/cache
 
 ZSH_THEME=""
-
 
 alias ff='fastfetch -c ~/.config/fastfetch/config.jsonc'
 alias ff1='fastfetch -c ~/.config/fastfetch/config1.jsonc'
 
 ff1
 
+alias clearr='clear && ff1'
 
 
 plugins=(git 
