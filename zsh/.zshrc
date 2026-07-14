@@ -14,12 +14,9 @@ export STARSHIP_CACHE=~/.sarship/cache
 
 ZSH_THEME=""
 
-alias ff='fastfetch -c ~/.config/fastfetch/config.jsonc'
-alias ff1='fastfetch -c ~/.config/fastfetch/config1.jsonc'
-alias x11='termux-x11 :1 -xstartup "dbus-launch --exit-with-session i3"'
-
-alias clearr='clear && ff1'
-
+if [ -f "$HOME/.zsh/aliases.zsh" ]; then
+    source "$HOME/.zsh/aliases.zsh"
+fi
 
 plugins=(git 
 	zsh-autocomplete
