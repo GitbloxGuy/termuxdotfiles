@@ -1,10 +1,16 @@
-{"timestamp":181715348,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"true","glean_timestamp":"1784083595352","loadfail_reason":"N/A","path_key":"clean"}}
-{"timestamp":181715350,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"true","loadfail_reason":"N/A","path_key":"clean","glean_timestamp":"1784083595353"}}
-{"timestamp":181715399,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_reason":"N/A","shutdown_ok":"false","glean_timestamp":"1784083595403"}}
-{"timestamp":181719752,"category":"nimbus_events","name":"startup_database_consistency","extra":{"trigger":"startup","primary":"database","total_db_count":"1","glean_timestamp":"1784083599756","db_active_count":"1","store_active_count":"1","total_store_count":"1"}}
-{"timestamp":181719947,"category":"jsonfile","name":"load_autofillprofiles","extra":{"glean_timestamp":"1784083599950","value":"error_notfounderror"}}
-{"timestamp":181720404,"category":"containers","name":"container_profile_loaded","extra":{"containers":"4","glean_timestamp":"1784083600408"}}
-{"timestamp":181722142,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1784083602145"}}
-{"timestamp":181722144,"category":"jsonfile","name":"load_logins","extra":{"value":"error_notfounderror","glean_timestamp":"1784083602147"}}
-{"timestamp":181722470,"category":"upgrade_dialog","name":"trigger_reason","extra":{"glean_timestamp":"1784083602473","value":"not-major"}}
-{"timestamp":181745100,"category":"doh","name":"state_shutdown","extra":{"value":"null","glean_timestamp":"1784083625104"}}
+{"timestamp":6718909,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"File doesn't exist.","can_load":"false","glean_timestamp":"1784145934892","path_key":"clean"}}
+{"timestamp":6718995,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","can_load":"true","glean_timestamp":"1784145934978","path_key":"recovery"}}
+{"timestamp":6718997,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","path_key":"recovery","glean_timestamp":"1784145934980","can_load":"true"}}
+{"timestamp":6719096,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_reason":"final-state-write-incomplete","glean_timestamp":"1784145935079","shutdown_ok":"true"}}
+{"timestamp":6724726,"category":"nimbus_events","name":"startup_database_consistency","extra":{"total_store_count":"1","db_active_count":"1","glean_timestamp":"1784145940709","trigger":"startup","primary":"database","store_active_count":"1","total_db_count":"1"}}
+{"timestamp":6724988,"category":"jsonfile","name":"load_autofillprofiles","extra":{"glean_timestamp":"1784145940971","value":"error_notfounderror"}}
+{"timestamp":6726493,"category":"jsonfile","name":"load_logins","extra":{"glean_timestamp":"1784145942476","value":"error_notfounderror"}}
+{"timestamp":6726598,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1784145942582"}}
+{"timestamp":6727653,"category":"containers","name":"container_profile_loaded","extra":{"containers":"4","glean_timestamp":"1784145943636"}}
+{"timestamp":6727985,"category":"upgrade_dialog","name":"trigger_reason","extra":{"glean_timestamp":"1784145943968","value":"not-major"}}
+{"timestamp":6729230,"category":"nimbus_events","name":"database_write","extra":{"glean_timestamp":"1784145945213","success":"true"}}
+{"timestamp":6734403,"category":"urlbar","name":"engagement","extra":{"n_words":"1","available_semantic_sources":"none","interaction":"typed","engagement_type":"enter","groups":"heuristic","glean_timestamp":"1784145950386","results":"search_engine","search_mode":"","search_engine_default_id":"google-b-1-d","selected_position":"1","provider":"UrlbarProviderHeuristicFallback","actions":"none","n_results":"1","selected_result":"search_engine","sap":"urlbar_newtab","window_mode":"classic","n_chars":"7"}}
+{"timestamp":6734459,"category":"sap","name":"counts","extra":{"glean_timestamp":"1784145950442","source":"urlbar","provider_name":"Google","partner_code":"firefox-b-1-d","provider_id":"google","overridden_by_third_party":"false"}}
+{"timestamp":6738321,"category":"serp","name":"impression","extra":{"is_signed_in":"false","partner_code":"firefox-b-1-d","impression_id":"5028c2ce-75f9-4d38-bd85-d13134a8ff22","shopping_tab_displayed":"true","is_private":"false","provider":"google","has_ai_summary":"true","glean_timestamp":"1784145954304","is_shopping_page":"false","source":"urlbar","tagged":"true"}}
+{"timestamp":6738326,"category":"serp","name":"ad_impression","extra":{"ads_hidden":"0","impression_id":"5028c2ce-75f9-4d38-bd85-d13134a8ff22","ads_loaded":"1","ads_visible":"1","glean_timestamp":"1784145954309","component":"shopping_tab"}}
+{"timestamp":6756472,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"false","glean_timestamp":"1784145977795"}}

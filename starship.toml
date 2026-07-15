@@ -135,7 +135,7 @@ format = '\[[$symbol$branch]($style)\]'
 [hostname]
 format = '\[[$ssh_symbol($hostname)]($style)\] '
 ssh_only = false
-style = 'bold green'
+style = '#184B44'
 disabled = false
 
 [java]
@@ -278,7 +278,7 @@ format = '\[[$symbol$workspace]($style)\]'
 
 [time]
 format = '\[[$time]($style)\]'
-style = 'bold blue'
+style = '#A4973F'
 disabled = false
 time_format = '%I:%M:%S %p'
 

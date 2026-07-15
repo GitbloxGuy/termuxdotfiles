@@ -112,12 +112,6 @@ element-icon {
         cursor:           inherit;
 }
 
-element-icon selected {
-    /* Step 2: Tint the icon to match your gold accent color on selection */
-    icon-filter: "invert(64%) sepia(61%) saturate(545%) hue-rotate(9deg) brightness(93%) contrast(92%)";
-
-}
-
 element-text {
     vertical-align:   0.5;
     cursor:           inherit;
