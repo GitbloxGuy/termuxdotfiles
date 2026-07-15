@@ -1,2 +1,126 @@
 
+
+
+configuration {
+    modi:                       "drun,run,filebrowser";
+    show-icons:                 false;
+    display-drun:               "Apps";
+    display-run:                "Run";
+    display-filebrowser:        "Files";
+    drun-display-format:        "{name}";
+    window-format:              "{w} · {c} · {t}";
+    font:                       "JetBrains Mono 11";
+    icon-theme:                 "Papirus";
+}
+
+
 @theme "/data/data/com.termux/files/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+
+
+* {
+   
+    bg:      #142217;
+    bg-alt:  #243328;
+    fg:      #e4ebd9;
+    accent:  #d4af37;
+
+    background-color: transparent;
+    text-color:       @fg;
+}
+
+window {
+    location:         center;
+    anchor:           center;
+    fullscreen:       false;
+    height:	      400px;
+    width:            700px;
+    x-offset:         0px;
+    y-offset:         0px;
+
+    enabled:          true;
+    border:           2px;
+    border-radius:    12px;
+    border-color:     @accent;
+    background-color: @bg;
+}
+
+mainbox {
+    enabled:          true;
+    spacing:          10px;
+    padding:          20px;
+    children:         [ "inputbar", "listview" ];
+}
+
+inputbar {
+    enabled:          true;
+    spacing:          10px;
+    padding:          8px 12px;
+    border-radius:    8px;
+    background-color: @bg-alt;
+    children:         [ "prompt", "entry" ];
+}
+
+prompt {
+    enabled:          true;
+    text-color:       @accent;
+    font:             "JetBrains Mono Bold 11";
+}
+
+entry {
+    enabled:          true;
+    cursor:           text;
+    placeholder:      "Search...";
+    placeholder-color: #6c7086;
+}
+
+listview {
+    enabled:          true;
+    columns:          1;
+    lines:            8;
+    cycle:            true;
+    dynamic:          true;
+    scrollbar:        false;
+    layout:           vertical;
+    reverse:          false;
+    fixed-height:     true;
+    fixed-columns:    true;
+    
+    spacing:          5px;
+}
+
+element {
+    enabled:          true;
+    spacing:          10px;
+    padding:          6px;
+    border-radius:    6px;
+    cursor:           pointer;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color:       @fg;
+}
+
+element selected.normal {
+    background-color: @accent;
+    text-color:       @bg;
+}
+
+element-icon {
+        size:             24px;
+        icon-filter: "brightness(0) invert(1)";
+        cursor:           inherit;
+}
+
+element-icon selected {
+    /* Step 2: Tint the icon to match your gold accent color on selection */
+    icon-filter: "invert(64%) sepia(61%) saturate(545%) hue-rotate(9deg) brightness(93%) contrast(92%)";
+
+}
+
+element-text {
+    vertical-align:   0.5;
+    cursor:           inherit;
+    text-color:       inherit;
+}
+

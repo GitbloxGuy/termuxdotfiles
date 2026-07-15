@@ -11,13 +11,13 @@ application/x-extension-xhtml=userapp-Zen-YIIBS3.desktop
 application/x-extension-xht=userapp-Zen-YIIBS3.desktop
 
 [Added Associations]
-x-scheme-handler/http=userapp-Zen-YIIBS3.desktop;
-x-scheme-handler/https=userapp-Zen-YIIBS3.desktop;
-x-scheme-handler/chrome=userapp-Zen-YIIBS3.desktop;
-text/html=userapp-Zen-YIIBS3.desktop;
-application/x-extension-htm=userapp-Zen-YIIBS3.desktop;
-application/x-extension-html=userapp-Zen-YIIBS3.desktop;
-application/x-extension-shtml=userapp-Zen-YIIBS3.desktop;
-application/xhtml+xml=userapp-Zen-YIIBS3.desktop;
-application/x-extension-xhtml=userapp-Zen-YIIBS3.desktop;
-application/x-extension-xht=userapp-Zen-YIIBS3.desktop;
+x-scheme-handler/http=userapp-Zen-YIIBS3.desktop;userapp-Firefox-TWRHS3.desktop;
+x-scheme-handler/https=userapp-Zen-YIIBS3.desktop;userapp-Firefox-TWRHS3.desktop;
+x-scheme-handler/chrome=userapp-Zen-YIIBS3.desktop;userapp-Firefox-TWRHS3.desktop;
+text/html=userapp-Zen-YIIBS3.desktop;userapp-Firefox-TWRHS3.desktop;
+application/x-extension-htm=userapp-Zen-YIIBS3.desktop;userapp-Firefox-TWRHS3.desktop;
+application/x-extension-html=userapp-Zen-YIIBS3.desktop;userapp-Firefox-TWRHS3.desktop;
+application/x-extension-shtml=userapp-Zen-YIIBS3.desktop;userapp-Firefox-TWRHS3.desktop;
+application/xhtml+xml=userapp-Zen-YIIBS3.desktop;userapp-Firefox-TWRHS3.desktop;
+application/x-extension-xhtml=userapp-Zen-YIIBS3.desktop;userapp-Firefox-TWRHS3.desktop;
+application/x-extension-xht=userapp-Zen-YIIBS3.desktop;userapp-Firefox-TWRHS3.desktop;
