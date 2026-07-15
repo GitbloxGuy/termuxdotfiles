@@ -4,6 +4,6 @@ decorations = "None"
 opacity = 0.5
 
  [colors.primary]
- background = '#1a1a1a'
+ background = '#000f04'
  foreground = '#B59410'
 

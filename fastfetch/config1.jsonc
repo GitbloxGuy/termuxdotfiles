@@ -5,9 +5,19 @@
     "source": ".config/fastfetch/.asciart1.txt",
     "padding": {
       "right": 4
+     },
+ "color": {
+      "1": "#a19c08", // Changes primary color of the ASCII art
+      "2": "blue"     // Changes secondary color (if the art uses multiple color codes)
     }
   },
   "display": {
+    "color": {
+      "output": "#258a07",
+	"keys": "#a19c08",
+        "title": "#a19c08"
+    },
+
     "separator": "   "
   },
   "modules": [
@@ -38,10 +48,11 @@
       "key": "memory",
       "format": "{1}/{2} ({3})"
     },
-"break",
+    "break",
     {
       "type": "colors",
       "symbol": "circle"
     }
   ]
 }
+
