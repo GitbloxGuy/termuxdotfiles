@@ -15,12 +15,12 @@ for_window [class="^.*"] border pixel 1
 
 # Colors (Border / Background / Text)
 client.focused          #000000 #000000 #000000 #000000   #000000
-client.focused_inactive #ffffff #ffffff #ffffff #ffffff   #ffffff
-client.unfocused        #ffffff #ffffff #ffffff #ffffff   #ffffff
+client.focused_inactive #d4af37 #d4af37 #d4af37 #d4af37   #d4af37
+client.unfocused        #d4af37 #d4af37 #d4af37 #d4af37   #d4af37
 
 # Gaps
-gaps inner 3
-gaps outer 3
+gaps inner 5
+gaps outer 5
 
 
 # Wallpaper: Path updated to your Termux home directory

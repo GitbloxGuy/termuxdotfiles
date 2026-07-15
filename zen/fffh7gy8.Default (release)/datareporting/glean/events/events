@@ -48,3 +48,4 @@
 {"timestamp":7832646,"category":"serp","name":"impression","extra":{"tagged":"true","is_private":"false","source":"unknown","is_signed_in":"false","has_ai_summary":"false","glean_timestamp":"1784147048629","partner_code":"firefox-b-1-d","impression_id":"9a2316a6-90ab-402c-ba35-136f4e794eb1","shopping_tab_displayed":"false","is_shopping_page":"false","provider":"google"}}
 {"timestamp":8599507,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1784147871622","firstTime":"false"}}
 {"timestamp":8818134,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1784148048299","firstTime":"false"}}
+{"timestamp":9555024,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"firstTime":"false","glean_timestamp":"1784148776722"}}

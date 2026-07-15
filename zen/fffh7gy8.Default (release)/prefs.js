@@ -66,7 +66,7 @@ user_pref("doh-rollout.doneFirstRun", true);
 user_pref("doh-rollout.home-region", "US");
 user_pref("doh-rollout.uri", "https://mozilla.cloudflare-dns.com/dns-query");
 user_pref("dom.forms.autocomplete.formautofill", true);
-user_pref("dom.push.userAgentID", "6ea632b8d4da482986bae5513d56c7e4");
+user_pref("dom.push.userAgentID", "75bd453a643d47219c800ea794a616fc");
 user_pref("extensions.activeThemeID", "default-theme@mozilla.org");
 user_pref("extensions.blocklist.pingCountVersion", 0);
 user_pref("extensions.colorway-builtin-themes-cleanup", 1);
