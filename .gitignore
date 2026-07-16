@@ -4,3 +4,4 @@ zsh/.zsh_history
 # Ignore heavy zsh caches
 zsh/.zcompdump*
 
+zen/

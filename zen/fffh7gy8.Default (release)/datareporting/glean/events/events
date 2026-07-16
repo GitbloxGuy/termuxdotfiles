@@ -1,9 +1,0 @@
-{"timestamp":23200171,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","can_load":"true","glean_timestamp":"1784162416154","path_key":"clean"}}
-{"timestamp":23200174,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"true","glean_timestamp":"1784162416157","loadfail_reason":"N/A","path_key":"clean"}}
-{"timestamp":23200242,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_ok":"false","glean_timestamp":"1784162416225","shutdown_reason":"N/A"}}
-{"timestamp":23204132,"category":"nimbus_events","name":"startup_database_consistency","extra":{"store_active_count":"1","db_active_count":"1","total_store_count":"1","glean_timestamp":"1784162420115","primary":"database","trigger":"startup","total_db_count":"1"}}
-{"timestamp":23204446,"category":"jsonfile","name":"load_autofillprofiles","extra":{"glean_timestamp":"1784162420429","value":"error_notfounderror"}}
-{"timestamp":23205781,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1784162421764"}}
-{"timestamp":23206142,"category":"jsonfile","name":"load_logins","extra":{"value":"error_notfounderror","glean_timestamp":"1784162422125"}}
-{"timestamp":23206247,"category":"containers","name":"container_profile_loaded","extra":{"glean_timestamp":"1784162422231","containers":"4"}}
-{"timestamp":23206411,"category":"upgrade_dialog","name":"trigger_reason","extra":{"glean_timestamp":"1784162422394","value":"not-major"}}
