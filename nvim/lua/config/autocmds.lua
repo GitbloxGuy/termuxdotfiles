@@ -20,4 +20,14 @@ vim.api.nvim_create_autocmd({ "BufLeave", "FocusLost", "InsertEnter", "WinLeave"
     end,
 })
 
+vim.api.nvim_create_autocmd("VimEnter", {
+	  callback = function()
+		      vim.cmd("Neotree show")
+		        end,
+		})
+
+vim.api.nvim_set_hl(0, "NeoTreeDirectoryName", { fg = "#d4af37", bold = true })
+
+-- Change the folder icon color to match
+vim.api.nvim_set_hl(0, "NeoTreeDirectoryIcon", { fg = "#d4af37" })
 
