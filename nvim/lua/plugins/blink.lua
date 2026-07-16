@@ -5,12 +5,11 @@ return {
     -- optional: provides snippets for the snippet source
     'rafamadriz/friendly-snippets',
   },
+  
+  -- Changed from a lua function to a cargo command for Termux/ARM compatibility
   build = function()
-    -- build the fuzzy matcher, optionally add a timeout to `pwait(timeout_ms)`
-    -- you can use `gb` in `:Lazy` to rebuild the plugin as needed
-    require('blink.cmp').build():pwait()
-  end,
-
+	    require('blink.cmp').build():pwait()
+    end,
   ---@module 'blink.cmp'
   ---@type blink.cmp.Config
   opts = {
