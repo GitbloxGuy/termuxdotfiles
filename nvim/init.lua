@@ -1,5 +1,5 @@
-vim.opt.number = true          -- Show line numbers
-vim.opt.relativenumber = true  -- Show relative line numbers (great for jumping around)
+vim.opt.number = true
+vim.opt.relativenumber = true
 
 vim.opt.mouse = 'a'            -- Enable mouse support
 -- vim.opt.ignorecase = true      -- Ignore case in search patterns
@@ -26,6 +26,7 @@ vim.g.mapleader = ' '
 
 
 require("config.lazy")
+require("config.autocmds")
 
 vim.api.nvim_create_autocmd("VimEnter", {
 	  callback = function()
