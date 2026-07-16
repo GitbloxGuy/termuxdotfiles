@@ -9,7 +9,7 @@ success_symbol = '[ ❯](bold yellow)'
 error_symbol = '[ ⚠](bold red)'
 
 [directory]
-style = 'bold cyan'
+style = '#fcffa8'
 truncation_length = 3
 
 [aws]

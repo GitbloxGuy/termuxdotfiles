@@ -19,12 +19,13 @@ client.focused_inactive #d4af37 #d4af37 #d4af37 #d4af37   #d4af37
 client.unfocused        #d4af37 #d4af37 #d4af37 #d4af37   #d4af37
 
 # Gaps
-gaps inner 5
-gaps outer 5
+gaps inner 8
+gaps outer 8
 
+exec --no-startup-id rofi -show drun
 
 # Wallpaper: Path updated to your Termux home directory
-exec --no-startup-id feh --bg-fill ~/lw.jpg
+exec --no-startup-id feh --bg-fill ~/dgw.png
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
